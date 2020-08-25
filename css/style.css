@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+}
+.loader {
+    display: block;
+    margin: 0 auto;
+    height: 100px;
+}
+.post {
+    max-width: 450px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 2px 2px 20px #eee;
+    cursor: pointer;
+    transition: box-shadow 1s ease;
+}
+.post:hover {
+    box-shadow: 4px 4px 20px #666;;
+}
+.post-image {
+    width: 100%;
+}
+.title {
+    display: flex;
+    align-items: center;
+}
+.title > img {
+    height: 50px;
+    padding-right: 10px;
+}
